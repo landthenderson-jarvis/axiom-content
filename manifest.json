@@ -353,5 +353,10 @@
     "title": "Home AI Server for under $300 (2026)",
     "meta": "Build a powerful AI server for less than $300, perfect for home automation and IoT projects.",
     "date": "2026-06-11"
+  },
+  "self-hosting-an-ai-chatbot-with-ollama-2026": {
+    "title": "Self-Hosting an AI Chatbot with Ollama (2026)",
+    "meta": "Learn how to build a self-hosted AI chatbot using Ollama, complete with step-by-step instructions and real-world performance metrics.",
+    "date": "2026-06-11"
   }
 }
