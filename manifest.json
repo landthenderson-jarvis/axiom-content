@@ -378,5 +378,10 @@
     "title": "Running AI Agents 24/7 on a Home Server (2026)",
     "meta": "Learn how to build a powerful home server for running AI agents 24/7, without breaking the bank.",
     "date": "2026-06-11"
+  },
+  "building-a-local-llm-router-with-cloud-fallback-for-my-homelab-2026": {
+    "title": "Building a Local LLM Router with Cloud Fallback for My Homelab (2026)",
+    "meta": "Learn how to build a local language model router with cloud fallback for your homelab, and save costs compared to cloud solutions.",
+    "date": "2026-06-11"
   }
 }
