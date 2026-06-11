@@ -373,5 +373,10 @@
     "title": "Building an OpenAI-compatible API on Your Own Hardware (2026)",
     "meta": "Learn how to build a high-performance OpenAI API on your own hardware, leveraging 22tanksinc.com expertise.",
     "date": "2026-06-11"
+  },
+  "running-ai-agents-24-7-on-a-home-server-2026": {
+    "title": "Running AI Agents 24/7 on a Home Server (2026)",
+    "meta": "Learn how to build a powerful home server for running AI agents 24/7, without breaking the bank.",
+    "date": "2026-06-11"
   }
 }
