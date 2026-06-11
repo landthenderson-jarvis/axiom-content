@@ -363,5 +363,10 @@
     "title": "Running Stable Diffusion on an 8GB AMD GPU with ROCm 2026 (2026)",
     "meta": "Learn how to run Stable Diffusion on a budget-friendly homelab setup using an 8GB AMD GPU and ROCm 2026.",
     "date": "2026-06-11"
+  },
+  "setting-up-a-jetson-orin-nano-for-local-llm-inference-2026": {
+    "title": "Setting Up a Jetson Orin Nano for Local LLM Inference (2026)",
+    "meta": "Learn how to build a local language model inference setup using Jetson Orin Nano, perfect for those who want to control their data and reduce costs.",
+    "date": "2026-06-11"
   }
 }
