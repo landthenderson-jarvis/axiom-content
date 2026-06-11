@@ -348,5 +348,10 @@
     "title": "Running Llama 3 on a Budget GPU RX 580 Local AI Setup Guide (2026)",
     "meta": "Build a powerful local AI setup using an AMD RX 580 GPU and Llama 3 for just $300.",
     "date": "2026-06-11"
+  },
+  "home-ai-server-for-under-300-2026": {
+    "title": "Home AI Server for under $300 (2026)",
+    "meta": "Build a powerful AI server for less than $300, perfect for home automation and IoT projects.",
+    "date": "2026-06-11"
   }
 }
