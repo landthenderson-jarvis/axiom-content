@@ -368,5 +368,10 @@
     "title": "Setting Up a Jetson Orin Nano for Local LLM Inference (2026)",
     "meta": "Learn how to build a local language model inference setup using Jetson Orin Nano, perfect for those who want to control their data and reduce costs.",
     "date": "2026-06-11"
+  },
+  "building-an-openai-compatible-api-on-your-own-hardware-2026": {
+    "title": "Building an OpenAI-compatible API on Your Own Hardware (2026)",
+    "meta": "Learn how to build a high-performance OpenAI API on your own hardware, leveraging 22tanksinc.com expertise.",
+    "date": "2026-06-11"
   }
 }
