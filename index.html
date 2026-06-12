@@ -4,27 +4,48 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="google-site-verification" content="E0f3XUx677gGw2cCPTleBDbiQ46JNVqVsRSKNKNHQi8" />
-  <title>22 Tanks &mdash; AI Hardware &amp; Tech Buying Guides</title>
-  <meta name="description" content="Expert buying guides on AI hardware, home lab servers, self-hosted tools, and consumer tech. We test it, you save time.">
-  <style>*{box-sizing:border-box}body{font-family:system-ui,-apple-system,sans-serif;margin:0;color:#1a1a1a;background:#fff}header{background:#0f172a;padding:1rem 2rem;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:.75rem}.logo{color:#fff;text-decoration:none;font-size:1.4rem;font-weight:700;letter-spacing:-.5px}.logo span{color:#3b82f6}header nav{display:flex;gap:1.5rem;flex-wrap:wrap}header nav a{color:#94a3b8;text-decoration:none;font-size:.9rem}header nav a:hover{color:#fff}.hero{background:linear-gradient(135deg,#0f172a 0%,#1e3a5f 100%);color:#fff;padding:3.5rem 2rem;text-align:center}.hero h1{font-size:2rem;margin:0 0 .75rem;line-height:1.2;max-width:700px;margin-left:auto;margin-right:auto}.hero p{color:#94a3b8;font-size:1.05rem;margin:.5rem auto 0;max-width:580px}main{max-width:1080px;margin:0 auto;padding:2.5rem 2rem}section{margin-bottom:3rem}.section-header{font-size:1.15rem;font-weight:700;color:#0f172a;margin:0 0 1.25rem;padding-bottom:.5rem;border-bottom:2px solid #e2e8f0}.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(290px,1fr));gap:1rem}.card{background:#f8fafc;border:1px solid #e2e8f0;border-radius:10px;transition:box-shadow .15s,border-color .15s}.card:hover{box-shadow:0 4px 18px rgba(0,0,0,.08);border-color:#cbd5e1}.card a{display:block;padding:1.25rem 1.25rem 1rem;text-decoration:none;color:inherit}.card h3{font-size:.98rem;color:#0f172a;margin:0 0 .45rem;line-height:1.4;font-weight:600}.card p{font-size:.84rem;color:#475569;margin:0;line-height:1.5;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}footer{background:#f1f5f9;border-top:1px solid #e2e8f0;padding:1.25rem 2rem;font-size:.85rem;color:#64748b;display:flex;flex-wrap:wrap;gap:.75rem;align-items:center}footer a{color:#2563eb;text-decoration:none}@media(max-width:640px){.hero{padding:2rem 1rem}.hero h1{font-size:1.5rem}header{padding:.75rem 1rem}main{padding:1.5rem 1rem}}</style>
+  <title>22 Tanks &mdash; Run AI on hardware you already own.</title>
+  <meta name="description" content="Hands-on tutorials and buying guides for running AI on hardware you already own: local LLMs, budget GPUs, home lab servers, self-hosted tools.">
+  <link rel="icon" type="image/png" sizes="32x32" href="https://22tanksinc.com/favicon-32.png">
+  <link rel="icon" type="image/png" sizes="64x64" href="https://22tanksinc.com/favicon-64.png">
+  <link rel="apple-touch-icon" href="https://22tanksinc.com/favicon-64.png">
+  <style>/*axiom2-day2*/*{box-sizing:border-box}body{font-family:system-ui,-apple-system,sans-serif;margin:0;color:#E6EDF5;background:#0F1724}header{background:#0B111C;padding:1rem 2rem;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:.75rem;border-bottom:1px solid #24334A}.logo{color:#fff;text-decoration:none;font-size:1.4rem;font-weight:800;letter-spacing:-.5px;display:flex;align-items:center;gap:.55rem}.logo img{width:28px;height:28px;border-radius:6px}.logo span{color:#FFB347}header nav{display:flex;gap:1.5rem;flex-wrap:wrap}header nav a{color:#93A6BB;text-decoration:none;font-size:.9rem}header nav a:hover{color:#fff}header nav .nav-nl{color:#FFB347;font-weight:600}.hero{background:linear-gradient(135deg,#0F1724 0%,#1A2840 100%);color:#fff;padding:3.5rem 2rem 3rem;text-align:center;border-bottom:1px solid #24334A}.hero h1{font-size:2.1rem;margin:0 0 .75rem;line-height:1.2;max-width:720px;margin-left:auto;margin-right:auto}.hero h1 em{color:#FFB347;font-style:normal}.hero p{color:#93A6BB;font-size:1.05rem;margin:.5rem auto 0;max-width:600px}.hero .nl-form{display:flex;gap:.6rem;flex-wrap:wrap;justify-content:center;margin:1.6rem auto 0;max-width:480px}.hero .nl-form input{flex:1;min-width:220px;background:#16202E;border:1px solid #24334A;color:#E6EDF5;padding:.7rem 1rem;border-radius:6px;font-size:.95rem}.hero .nl-form button{background:#FFB347;color:#0F1724;border:none;padding:.7rem 1.4rem;border-radius:6px;font-weight:700;font-size:.95rem;cursor:pointer}.hero .nl-form button:hover{background:#E69A2E}.hero .nl-note{color:#93A6BB;font-size:.8rem;margin-top:.6rem}main{max-width:1080px;margin:0 auto;padding:2.5rem 2rem}section{margin-bottom:3rem}.section-header{font-size:1.15rem;font-weight:700;color:#fff;margin:0 0 1.25rem;padding-bottom:.5rem;border-bottom:2px solid #24334A}.section-header .accent{color:#FFB347}.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(290px,1fr));gap:1rem}.card{background:#16202E;border:1px solid #24334A;border-radius:10px;transition:border-color .15s,transform .15s}.card:hover{border-color:#4ADEBC;transform:translateY(-2px)}.card a{display:block;padding:1.25rem 1.25rem 1rem;text-decoration:none;color:inherit}.card h3{font-size:.98rem;color:#E6EDF5;margin:0 0 .45rem;line-height:1.4;font-weight:600}.card p{font-size:.84rem;color:#93A6BB;margin:0;line-height:1.5;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}footer{background:#0B111C;border-top:1px solid #24334A;padding:1.25rem 2rem;font-size:.85rem;color:#93A6BB;display:flex;flex-wrap:wrap;gap:.75rem;align-items:center}footer a{color:#4ADEBC;text-decoration:none}@media(max-width:640px){.hero{padding:2rem 1rem}.hero h1{font-size:1.5rem}header{padding:.75rem 1rem}main{padding:1.5rem 1rem}}</style>
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6587813458849512" crossorigin="anonymous"></script>
 </head>
 <body>
 <header>
-  <a href="https://22tanksinc.com/" class="logo">22 <span>Tanks</span></a>
+  <a href="https://22tanksinc.com/" class="logo"><img src="https://22tanksinc.com/favicon-64.png" alt="22T">22 <span>Tanks</span></a>
   <nav>
+    <a href="#tutorials">Tutorials</a>
     <a href="#ai-homelab">AI &amp; Home Lab</a>
     <a href="#consumer-tech">Consumer Tech</a>
     <a href="https://22tanksinc.com/about.html">About</a>
+    <a href="https://buttondown.com/22tanksinc" class="nav-nl" target="_blank" rel="noopener">Newsletter</a>
   </nav>
 </header>
 <div class="hero">
-  <h1>Expert Buying Guides for AI Builders &amp; Tech Enthusiasts</h1>
-  <p>We test the hardware. You save the time &mdash; and the money.</p>
+  <h1>Run AI on hardware you <em>already own</em>.</h1>
+  <p>Hands-on tutorials and buying guides for local LLMs, budget GPUs, and home lab builds &mdash; tested on real garage hardware, not cloud credits.</p>
+  <form action="https://buttondown.com/api/emails/embed-subscribe/22tanksinc" method="post" target="_blank" class="nl-form">
+    <input type="email" name="email" placeholder="you@example.com" required>
+    <button type="submit">Get The Garage AI Brief</button>
+  </form>
+  <div class="nl-note">One hands-on brief a week. Free. No spam, ever.</div>
 </div>
 <main>
+<section id="tutorials">
+  <h2 class="section-header"><span class="accent">&#128736;</span> Tutorials &amp; Build Guides</h2>
+  <div class="grid">
+    <article class="card">
+      <a href="https://22tanksinc.com/running-llama-3-on-a-budget-gpu-rx-580-local-ai-setup-guide-2026.html">
+        <h3>Running Llama 3 on a Budget GPU RX 580 Local AI Setup Guide (2026)</h3>
+        <p>Build a powerful local AI setup using an AMD RX 580 GPU and Llama 3 for just $300.</p>
+      </a>
+    </article>
+  </div>
+</section>
 <section id="ai-homelab">
-  <h2 class="section-header">&#129302; AI &amp; Home Lab</h2>
+  <h2 class="section-header"><span class="accent">&#129302;</span> AI &amp; Home Lab</h2>
   <div class="grid">
     <article class="card">
       <a href="https://22tanksinc.com/the-smallest-brain-you-can-build-a-perceptron-in-python-to-buy-in-2026-our-top-pick-and-guide.html">
@@ -127,12 +148,6 @@
       <a href="https://22tanksinc.com/running-stable-diffusion-on-an-8gb-amd-gpu-with-rocm-2026-2026.html">
         <h3>Running Stable Diffusion on an 8GB AMD GPU with ROCm 2026 (2026)</h3>
         <p>Learn how to run Stable Diffusion on a budget-friendly homelab setup using an 8GB AMD GPU and ROCm 2026.</p>
-      </a>
-    </article>
-    <article class="card">
-      <a href="https://22tanksinc.com/running-llama-3-on-a-budget-gpu-rx-580-local-ai-setup-guide-2026.html">
-        <h3>Running Llama 3 on a Budget GPU RX 580 Local AI Setup Guide (2026)</h3>
-        <p>Build a powerful local AI setup using an AMD RX 580 GPU and Llama 3 for just $300.</p>
       </a>
     </article>
     <article class="card">
@@ -286,6 +301,12 @@
       </a>
     </article>
     <article class="card">
+      <a href="https://22tanksinc.com/best-air-conditioner-2026-lg-puricare-as-m18cena-wins-our-top-pick.html">
+        <h3>Best Air Conditioner 2026: LG PuriCare AS-M18CENA Wins Our Top Pick!</h3>
+        <p>Find the best air conditioner for your home in our expert review of top 2026 models.</p>
+      </a>
+    </article>
+    <article class="card">
       <a href="https://22tanksinc.com/best-ai-pc-build-under-1000-for-small-spaces-in-2026-msi-trident-x-review.html">
         <h3>Best AI PC Build Under $1000 for Small Spaces in 2026: MSI Trident X Review</h3>
         <p>Compact AI gaming PCs under $1000, ideal for apartments and small spaces.</p>
@@ -294,7 +315,7 @@
   </div>
 </section>
 <section id="consumer-tech">
-  <h2 class="section-header">&#128187; Consumer Tech</h2>
+  <h2 class="section-header"><span class="accent">&#128187;</span> Consumer Tech</h2>
   <div class="grid">
     <article class="card">
       <a href="https://22tanksinc.com/top-pick-smartthings-wi-fi-light-bulb-2nd-gen-best-matter-wi-fi-light-bulb-for-under-75-in-2026.html">
@@ -670,6 +691,8 @@
 </main>
 <footer>
   <a href="https://22tanksinc.com/about.html">About 22 Tanks</a>
+  <span>&middot;</span>
+  <a href="https://buttondown.com/22tanksinc" target="_blank" rel="noopener">The Garage AI Brief</a>
   <span>&middot;</span>
   <a href="https://x.com/22Tanks" target="_blank" rel="noopener">Follow on X</a>
   <span>&middot;</span>
